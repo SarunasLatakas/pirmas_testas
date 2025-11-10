@@ -1,0 +1,13 @@
+Application must have
+Use Streamlit to to create web interface.
+Use qwen/qwen3-14b:free from Openrouter.
+Openrouter API key must be passed through web interface.
+After selecting LLM application will ask for - 
+user age
+Known health issues
+How much time can user exercise daily
+WHat are users goals? Allow to choose between Lose weight, gain muscle. User can only select one goal.
+Agent will provide recommended exercise plan for a week.
+Agent will reply as Health and fitness coach. 
+At the end of each reply add <This is AI generated response and cannot be treated as professional doctor's advice.>
+Check if user inputs proper age values, it cannot be letters
