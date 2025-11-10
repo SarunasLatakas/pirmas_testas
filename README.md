@@ -1,5 +1,5 @@
-##Mano įžvalgos
-Darant sveikatingumo aplikaciją, nepavyko užkurti nei vieno iš Gemmos modelių. Išmetė error'ą dėl galimai ušnaudotų accounto kreditų. Galiausiai suveikė naudojant Qwen3 14B. Manau geriausia būtų naudoti online LLMus, kurie nesisuka lokaliai ir nevalgo kompiuterio resursų.
+## Mano įžvalgos
+Darant sveikatingumo aplikaciją, nepavyko užkurti nei vieno iš Gemmos modelių. Išmetė error'ą dėl galimai išnaudotų accounto kreditų. Galiausiai suveikė naudojant Qwen3 14B. Manau geriausia būtų naudoti online LLMus, kurie nesisuka lokaliai ir nevalgo kompiuterio resursų.
 
 # Health & Fitness Coach Application
 
