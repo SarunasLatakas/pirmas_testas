@@ -1,3 +1,6 @@
+##Mano įžvalgos
+Darant sveikatingumo aplikaciją, nepavyko užkurti nei vieno iš Gemmos modelių. Išmetė error'ą dėl galimai ušnaudotų accounto kreditų. Galiausiai suveikė naudojant Qwen3 14B. Manau geriausia būtų naudoti online LLMus, kurie nesisuka lokaliai ir nevalgo kompiuterio resursų.
+
 # Health & Fitness Coach Application
 
 ## How to Run the Application
@@ -24,21 +27,18 @@ The application will automatically open in your default web browser at `http://l
 
 ### 3. Using the Application
 
-1. **Enter your OpenRouter API Key** in the sidebar
+1. **Enter your OpenRouter API Key** in the sidebar to use Qwen3 14B
    - Get your API key from [OpenRouter](https://openrouter.ai/)
    
-2. **Select an AI Model** from the dropdown
-   - Choose between Gemma 3 4B, 1B, or 270M models
-   
-3. **Fill in your information:**
+   2. **Fill in your information:**
    - Age (must be a number)
    - Known health issues
    - Daily exercise time in minutes
    - Fitness goal (Lose weight or Gain muscle)
    
-4. **Click "Generate My Exercise Plan"** to receive your personalized weekly workout plan
+3. **Click "Generate My Exercise Plan"** to receive your personalized weekly workout plan
 
-5. **Download the plan** using the download button if you want to save it
+4. **Download the plan** using the download button if you want to save it
 
 ### Features
 
