@@ -8,7 +8,11 @@ An AI-powered health and fitness coach application built with Streamlit that pro
 ## Features
 
 - 🏋️ Personalized weekly exercise plans
-- 🤖 Powered by OpenRouter AI (qwen/qwen3-14b:free model)
+- 🤖 Multiple AI model options via OpenRouter:
+  - Ollama gemma3:4b
+  - Ollama gemma3:1b
+  - gemma3:270m
+  - Qwen3 14B (free tier - recommended)
 - 💪 Tailored recommendations based on:
   - Age and health conditions
   - Available daily exercise time
@@ -57,16 +61,20 @@ The application will automatically open in your browser at `http://localhost:850
 
 1. **Enter your OpenRouter API Key** in the sidebar
    - Get your free API key from [OpenRouter](https://openrouter.ai/)
+
+2. **Select an AI Model** from the dropdown
+   - Choose from Ollama gemma3 models or Qwen3 14B
+   - Qwen3 14B (free tier) is recommended and set as default
    
-2. **Fill in your information:**
+3. **Fill in your information:**
    - **Age**: Enter your age (must be a number between 1-120)
    - **Known health issues**: List any health conditions or type "None"
    - **Daily exercise time**: How many minutes you can exercise per day
    - **Fitness goal**: Choose either "Lose weight" or "Gain muscle"
    
-3. **Generate Plan**: Click "Generate My Exercise Plan" button
+4. **Generate Plan**: Click "Generate My Exercise Plan" button
 
-4. **Download**: Save your personalized plan using the download button
+5. **Download**: Save your personalized plan using the download button
 
 ## Requirements
 
@@ -96,9 +104,12 @@ The application will automatically open in your browser at `http://localhost:850
 ## Troubleshooting
 
 - **API Key Error**: Ensure you've entered a valid OpenRouter API key
-- **Model Error**: The application uses the free `qwen/qwen3-14b:free` model
+- **Model Error**: 
+  - The free model is `qwen/qwen3-14b:free` (Qwen3 14B)
+  - Gemma models may require credits in your OpenRouter account
 - **Age Validation Error**: Age must be entered as a number (e.g., 25), not letters
 - **Virtual Environment**: Make sure the virtual environment is activated before running
+- **Model Selection**: If a model doesn't work, try selecting Qwen3 14B which is on the free tier
 
 ## Deactivating Virtual Environment
 

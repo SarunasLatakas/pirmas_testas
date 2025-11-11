@@ -1,6 +1,7 @@
 Application must have
 Use Streamlit to to create web interface.
-Use qwen/qwen3-14b:free from Openrouter.
+Allow user to select between avaialbe models
+models listed in docs/models.md.
 Openrouter API key must be passed through web interface.
 After selecting LLM application will ask for - 
 user age

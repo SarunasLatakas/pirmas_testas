@@ -23,9 +23,26 @@ with st.sidebar:
         help="Your API key is required to connect to the AI models"
     )
     
-    # Using qwen/qwen3-14b:free as specified in requirements
-    selected_model = "qwen/qwen3-14b:free"
-    st.info(f"🤖 Using model: **{selected_model}**")
+    # Model selection from docs/models.md
+    st.subheader("Select AI Model")
+    st.caption("Models from docs/models.md")
+    
+    model_options = {
+        "Ollama gemma3:4b": "google/gemma-2-9b-it",
+        "Ollama gemma3:1b": "google/gemma-2-2b-it",
+        "gemma3:270m": "google/gemma-2-2b-it",
+        "Qwen3 14B": "qwen/qwen3-14b:free"
+    }
+    
+    selected_model_name = st.selectbox(
+        "Choose a model",
+        options=list(model_options.keys()),
+        index=3,  # Default to Qwen3 14B
+        help="Select the AI model from available models"
+    )
+    
+    selected_model = model_options[selected_model_name]
+    st.info(f"🤖 Using: **{selected_model}**")
 
 # Main form
 st.header("📋 Tell us about yourself")
