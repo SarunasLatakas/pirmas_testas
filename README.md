@@ -90,7 +90,6 @@ The application will automatically open in your browser at `http://localhost:850
 ├── requirements-install.txt    # Python dependencies
 ├── requirements.txt            # Application requirements document
 ├── README.md                   # This file
-├── HOW_TO_RUN.md              # Detailed running instructions
 └── docs/
     ├── models.md              # Model information
     ├── openrouter.md          # OpenRouter documentation
